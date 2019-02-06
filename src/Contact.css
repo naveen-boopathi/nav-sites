@@ -1,0 +1,11 @@
+label {
+  font-weight: bold
+}
+
+input#firstName {
+  margin-left: 15px
+}
+
+input#lastName {
+  margin-right: 15px
+}
