@@ -1,8 +1,8 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Contact } from "./Contact";
-import { Home } from "./Home";
-import { About } from "./About";
+import React from "react"
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import Contact from "./Contact"
+import Home from "./Home"
+import About from "./About"
 
 class Navbar extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class Navbar extends React.Component {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
               <Link className="navbar-brand" to="/">
                 NAV SITE
-            </Link>
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -52,8 +52,8 @@ class Navbar extends React.Component {
           <Route path="/contact" component={Contact} />
         </div>
       </Router>
-    );
+    )
   }
 }
 
-export default Navbar;
+export default Navbar
