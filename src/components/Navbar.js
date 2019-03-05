@@ -10,9 +10,9 @@ class Navbar extends React.Component {
       <Router>
         <div>
           <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <Link className="navbar-brand" to="/">
-                NAV SITE
+                Site Doers
               </Link>
               <button
                 className="navbar-toggler"

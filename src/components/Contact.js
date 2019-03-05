@@ -60,7 +60,7 @@ class Contact extends React.Component {
           </div>
           <div className="form-group">
             <label>Your Phone *</label>
-            <input type="number" id="phoneNumber" className="form-control" placeholder='Your Phone - Please include your country code Eg. +91 9790397637' onBlur={(e) => e.target.placeholder = 'Your Phone - Please include your country code Eg. +91 9790397637'} onFocus={(e) => this.handleFocus(e)} onChange={(e) => this.handleChange(e)} value={this.state.phoneNumber} />
+            <input type="tel" id="phoneNumber" className="form-control" placeholder='Your Phone - Please include your country code Eg. +91 9790397637' onBlur={(e) => e.target.placeholder = 'Your Phone - Please include your country code Eg. +91 9790397637'} onFocus={(e) => this.handleFocus(e)} onChange={(e) => this.handleChange(e)} value={this.state.phoneNumber} />
           </div>
           <div className="form-group">
             <label>Your Email *</label>
