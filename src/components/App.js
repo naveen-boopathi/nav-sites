@@ -1,14 +1,19 @@
-import React, { Component } from "react"
-import Navbar from "./Navbar.js"
+import React, { Component, Fragment } from "react"
+import { BrowserRouter as Router } from "react-router-dom"
+import Navbar from "./Navbar"
+import MainPage from "./MainPage"
 import "../styles/App.css"
 
 class App extends Component {
   render() {
     return (
-      <div className="main">
-        <Navbar />
-      </div>
-    );
+      <Router className="main">
+        <Fragment>
+          <Navbar />
+          <MainPage />
+        </Fragment>
+      </Router>
+    )
   }
 }
 
